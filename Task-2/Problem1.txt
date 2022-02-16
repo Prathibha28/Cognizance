@@ -1,0 +1,17 @@
+Function Main
+    ... consider N as a number and
+    ... intq is integer value of N/3 and
+    ... quotient is the float value of N/3
+    Declare Integern N, intq
+    Declare Real quotient
+        
+    Output "enter number"
+    Input N
+    Assign quotient = N/3
+    Assign intq = N/3
+    If quotient == intq
+        Output "True"
+    False:
+        Output "False"
+    End
+End

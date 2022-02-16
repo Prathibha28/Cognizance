@@ -1,0 +1,32 @@
+Function Main
+    .... a-1st term, b-2nd term
+    Declare Integer N,a,b,x,sum,i
+    
+    Output "enter n value"
+    Input N
+    Assign a = 0
+    Assign b = 1
+    Assign sum = 0
+    If N>0
+        If N==1
+            Assign sum = b
+            Output sum
+        False:
+            Assign sum = a+b
+            For i = 2 to n-1
+                Assign x = a+b
+                Assign a = b
+                Assign b = x
+                Assign sum = sum+a
+            End
+            Output sum
+        End
+    False:
+        If N==0
+            Assign sum = a
+            Output sum
+        False:
+            Output "not possible"
+        End
+    End
+End
