@@ -3,11 +3,7 @@ from collections import Counter
 file = open("about.txt", "r")
 data = file.read()
 words = data.split(" ")
-# # Gets each line till end of file is reached
-# for line in file:
-#     # Splits each line into words
-#     words = line.split(" ")
-#     # Counts each word
+
 count = len(words)
 counting = Counter(words)
 for i in range(0,len(words)):
