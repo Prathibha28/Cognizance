@@ -1,15 +1,20 @@
 from collections import Counter
-
+sentence = ""
 file = open("about.txt", "r")
 data = file.read()
-words = data.split(" ")
+
+for txt in data:
+    if txt=="," or txt ==".":
+        pass
+    else:
+        sentence+=txt
+words = sentence.split(" ")
 
 count = len(words)
 counting = Counter(words)
 for i in range(0,len(words)):
     if len(words[i]) >= 6:
         print(words[i])
-
 print("Number of words present in given file: " + str(count))
 
 list_of_word_and_frequency = counting.most_common()
