@@ -1,0 +1,37 @@
+WHAT IS MACHINE LEARNING: 
+it is a science of programming computer so that they can learn from data.
+Ordinary System + With Application of AI -----> Machine learning.
+TYPES OF MACHINE LEARNING:
+I.SUPERVISED MACHINE LEARNING:
+In supervised learning, the training data you feed to the algorithm includes the desired solutions, called labels.
+Applications:
+1.Spam filter
+2.Object recognition
+3.Bioinfomatics
+4.Fraud detection in banking etc.
+II.UNSUPERVISED MACHINE LEARNING:
+In unsupervised learning, as you might guess, the training data is unlabeled. The system tries to learn without a teacher.
+Applications:
+1.Clustring 
+2.Anomoly detection
+3.Association mining 
+4.Latent variable model etc..
+III.SEMI-SUPERVISED MACHINE LEARNING:
+Semi-supervised learning is a mix between supervised and unsupervised approaches.
+It uses a small amount of labeled data and a large amount of unlabeled data, 
+which provides the benefits of both unsupervised and supervised learning while avoiding the challenges of finding a large amount of labeled data.
+That means you can train a model to label data without having to use as much labeled training data. 
+Applications:
+1.Text document classifier
+2.Image and speech analysis
+3.Banking etc..
+IV.REINFORCEMENT MACHINE LEARNING:
+Reinforcement Learning means reinforcing or training the existing ML models so that they may produce well a sequence of decisions.
+Applications:
+1.Manufacturing
+2.Image processing 
+3.Gaming
+4.Robotics
+5.Healthcare 
+6.Broadcast journalism 
+7.Marketing
