@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.DataFrame([
+    ["STD","City","State"],
+    [33,"Mumbai","Maharshtra"],
+    [44,"Chennai","TamilNadu"],
+    [40,"Vishakapatnam","Telengana"],
+    [80, "Bangalore", "Karnataka"]],
+    columns=["","",""]
+    )
+print(df)
