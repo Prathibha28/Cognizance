@@ -1,0 +1,6 @@
+import numpy as np
+np.random.seed(100)
+a = np.random.uniform(1,50, 20)
+print(a)
+arr=np.clip(a,a_min=15,a_max=45)
+print(arr)
